@@ -13,7 +13,7 @@
 				"header": [
 					{
 						"key": "apikey",
-						"value": "A3CNjWzwXxH9OnTZcUhk/oDbUJS8hTFwXyrJUcN9woE=",
+						"value": "your-secure-key",
 						"type": "text"
 					}
 				],
@@ -130,7 +130,7 @@
 				"header": [
 					{
 						"key": "apikey",
-						"value": "wek5NZv7eap8I2shjJAEN8UwnwEEHA23dKkWxLqdnDU=",
+						"value": "your-secure-key",
 						"type": "text"
 					}
 				],
@@ -166,7 +166,7 @@
 						"header": [
 							{
 								"key": "apikey",
-								"value": "wek5NZv7eap8I2shjJAEN8UwnwEEHA23dKkWxLqdnDU=",
+								"value": "your-secure-key=",
 								"type": "text"
 							}
 						],
