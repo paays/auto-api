@@ -1,6 +1,8 @@
-# PAAYS AUTO APIs
+# PAAYS AUTO API
 
 ## Get Transaction by using user details
+
+Use this API call to obtain the details of a consumer based on conversation ID or user details. 
 
 ### Request
 
@@ -10,7 +12,7 @@
 
 ### Response
 
-    {"status":1,"data":{"customerUid":"broad-slowly","transactionId":"5910470497402880","refreshToken":"95UWcmx8ICPFYU6ZmpuHuO-fOXXhktWs","phoneNumber":"6472273539","dealerEmail":"david@frycars.com","userIpAddress":"103.59.75.111","maxmindReport":null,"countryCode":"CA","createdAt":"2022-06-17T07:36:33.684Z","updatedAt":"2022-07-14T10:21:27.037Z","data":{"user":{"documentNumber":"xyz"}},"hrfaReport":null,"active":true}}
+    {"status":1,"data":{"customerUid":"broad-slowly","transactionId":"5910470497402880","refreshToken":"","phoneNumber":"6472273539","dealerEmail":"dealer@dealership.com","userIpAddress":"103.59.75.111","maxmindReport":null,"countryCode":"CA","createdAt":"2022-06-17T07:36:33.684Z","updatedAt":"2022-07-14T10:21:27.037Z","data":{"user":{"documentNumber":"xyz"}},"hrfaReport":{},"active":true}}
 
 ## Get Transaction by using routeone (conversationId)
 
@@ -22,9 +24,11 @@
 
 ### Response
 
-    {"status":1,"data":{"customerUid":"broad-slowly","transactionId":"5910470497402880","refreshToken":"95UWcmx8ICPFYU6ZmpuHuO-fOXXhktWs","phoneNumber":"6472273539","dealerEmail":"david@frycars.com","userIpAddress":"103.59.75.111","maxmindReport":null,"countryCode":"CA","createdAt":"2022-06-17T07:36:33.684Z","updatedAt":"2022-07-14T10:21:27.037Z","data":{"user":{"documentNumber":"xyz"}},"hrfaReport":null,"active":true}}
+    {"status":1,"data":{"customerUid":"broad-slowly","transactionId":"5910470497402880","refreshToken":"","phoneNumber":"6472273539","dealerEmail":"dealer@dealership.com","userIpAddress":"103.59.75.111","maxmindReport":null,"countryCode":"CA","createdAt":"2022-06-17T07:36:33.684Z","updatedAt":"2022-07-14T10:21:27.037Z","data":{"user":{"documentNumber":"xyz"}},"hrfaReport":{},"active":true}}
 
 ## Create Transaction
+
+Use this API call to create a ID Verify link that will be sent by a dealer to a end consumer, to start the IDV process. 
 
 ### Request
 
