@@ -1,5 +1,8 @@
 # PAAYS AUTO API Version 1.0 (Closed Beta)
 
+## Note - 
+This API is in closed beta. To access the endpoints please connect with the Paays team.  
+
 ## Get Transaction by using user details
 
 Use this API call to obtain the details of a consumer based on conversation ID or user details. 
