@@ -1,4 +1,4 @@
-# PAAYS AUTO API
+# PAAYS AUTO API Version 1.0 (Closed Beta)
 
 ## Get Transaction by using user details
 
