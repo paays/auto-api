@@ -127,7 +127,7 @@ Use this API call to obtain the details of a consumer based on conversation ID o
         }
     }
 }
-```
+
 
 ## Create Transaction
 
