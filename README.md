@@ -15,8 +15,58 @@ Use this API call to obtain the details of a consumer based on conversation ID o
 
 ### Response
 
-    {"status":1,"data":{"customerUid":"broad-slowly","transactionId":"5910470497402880","refreshToken":"","phoneNumber":"6472273539","dealerEmail":"dealer@dealership.com","userIpAddress":"103.59.75.111","maxmindReport":null,"countryCode":"CA","createdAt":"2022-06-17T07:36:33.684Z","updatedAt":"2022-07-14T10:21:27.037Z","data":{"user":{"documentNumber":"xyz"}},"hrfaReport":{},"active":true}}
-
+    
+```
+{
+    "status": 1,
+    "data": {
+        "transaction": {
+            "date": "2022-08-04",
+            "time": "20:30:27"
+        },
+        "dlInfo": {
+            "full_name": "DIRK J VANDERPLAAT",
+            "given_names": "DIRK",
+            "middle_name": "J",
+            "family_name": "VANDERPLAAT",
+            "gender": "M",
+            "phoneNumber": "4167884343",
+            "date_of_birth": "1963-02-12",
+            "age": "59",
+            "date_of_issue": "2021-06-08",
+            "expiration_date": "2026-02-12",
+            "document_number": "V03961715630212",
+            "document_type": "DL",
+            "issuing_authority": "CA-ON",
+            "structured_postal_address": {
+                "street_address": "110 RIDLEY BLVD",
+                "city_address": "TORONTO",
+                "province_name": "ON",
+                "postal_code": "M5M3L9",
+                "formatted_address": "110 RIDLEY BLVD,TORONTO,CA,ON,M5M3L9"
+            }
+        },
+        "dlCheck": {
+            "action": "accept",
+            "flags": []
+        },
+        "fraudCheck": {
+            "active": "Y",
+            "deviceRiskScore": 0.1,
+            "ipAddress": "174.95.80.9",
+            "geoLocation": "-79.3877, 43.7012",
+            "city": "Toronto",
+            "country": "Canadá",
+            "emailFirstSeen": null,
+            "emailAge": null,
+            "emailRiskScore": null,
+            "bureauHit": null,
+            "bureauFraudFlag": null,
+            "fraudCheckDescision": null
+        }
+    }
+}
+```
 ## Get Transaction by using routeone (conversationId)
 
 ### Request
