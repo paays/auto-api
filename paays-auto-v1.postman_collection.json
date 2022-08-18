@@ -13,13 +13,13 @@
 				"header": [
 					{
 						"key": "apikey",
-						"value": "your-secure-key",
+						"value": "yiCvmlIYavcdmRYQUbt3GaxttJuxYsZRz42jvuZ0n70=",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"userDetails\": {\n        \"firstName\":\"dev\",\n        \"lastName\": \"test\",\n        \"phoneNo\": \"6472273539\",\n        \"drivingLicenseNumber\":\"xyz\"\n    }\n}",
+					"raw": "{\n    \"userDetails\": {\n        \"firstName\":\"D\",\n        \"lastName\": \"VDP\",\n        \"phoneNo\": \"4167884343\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -49,13 +49,13 @@
 						"header": [
 							{
 								"key": "apikey",
-								"value": "REYrtBoxeLvf1iYLis3fuK4lPlXohokEVhn6VXeBYBk=",
+								"value": "yiCvmlIYavcdmRYQUbt3GaxttJuxYsZRz42jvuZ0n70=",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"userDetails\": {\n        \"firstName\":\"dev\",\n        \"lastName\": \"test\",\n        \"phoneNo\": \"6472273539\",\n        \"drivingLicenseNumber\":\"xyz\"\n    }\n}",
+							"raw": "{\n    \"userDetails\": {\n        \"firstName\":\"D\",\n        \"lastName\": \"VDP\",\n        \"phoneNo\": \"4167884343\"\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -82,6 +82,26 @@
 					"_postman_previewlanguage": "json",
 					"header": [
 						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 18 Aug 2022 06:23:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "918"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
 							"key": "X-Powered-By",
 							"value": "Express"
 						},
@@ -90,36 +110,16 @@
 							"value": "*"
 						},
 						{
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8"
-						},
-						{
-							"key": "Content-Length",
-							"value": "429"
-						},
-						{
 							"key": "ETag",
-							"value": "W/\"1ad-7rHACw+uByTHnxfIIycCO+pk64E\""
+							"value": "W/\"396-bz5K7WrQJu51g7lY3tL97/lWZpI\""
 						},
 						{
 							"key": "Vary",
 							"value": "Accept-Encoding"
-						},
-						{
-							"key": "Date",
-							"value": "Tue, 02 Aug 2022 05:09:14 GMT"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=5"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"status\": 1,\n    \"data\": {\n        \"_id\": \"62ac2f01e69c4143b73404f7\",\n        \"customerUid\": \"broad-slowly\",\n        \"transactionId\": \"5910470497402880\",\n        \"refreshToken\": \"95UWcmx8ICPFYU6ZmpuHuO-fOXXhktWs\",\n        \"phoneNumber\": \"6472273539\",\n        \"dealerEmail\": \"david@frycars.com\",\n        \"userIpAddress\": \"103.59.75.111\",\n        \"maxmindReport\": null,\n        \"countryCode\": \"CA\",\n        \"createdAt\": \"2022-06-17T07:36:33.684Z\",\n        \"updatedAt\": \"2022-07-14T10:21:27.037Z\",\n        \"__v\": 0,\n        \"data\": {},\n        \"hrfaReport\": null,\n        \"active\": true\n    }\n}"
+					"body": "{\n    \"status\": 1,\n    \"data\": {\n        \"transaction\": {\n            \"date\": \"2022-08-04\",\n            \"time\": \"20:30:27\"\n        },\n        \"dlInfo\": {\n            \"full_name\": \"DIRK J VANDERPLAAT\",\n            \"given_names\": \"DIRK\",\n            \"middle_name\": \"J\",\n            \"family_name\": \"VANDERPLAAT\",\n            \"gender\": \"M\",\n            \"phoneNumber\": \"4167884343\",\n            \"date_of_birth\": \"1963-02-12\",\n            \"age\": \"59\",\n            \"date_of_issue\": \"2021-06-08\",\n            \"expiration_date\": \"2026-02-12\",\n            \"document_number\": \"V03961715630212\",\n            \"document_type\": \"DL\",\n            \"issuing_authority\": \"CA-ON\",\n            \"structured_postal_address\": {\n                \"street_address\": \"110 RIDLEY BLVD\",\n                \"city_address\": \"TORONTO\",\n                \"province_name\": \"ON\",\n                \"postal_code\": \"M5M3L9\",\n                \"formatted_address\": \"110 RIDLEY BLVD,TORONTO,CA,ON,M5M3L9\"\n            }\n        },\n        \"dlCheck\": {\n            \"action\": \"accept\",\n            \"flags\": []\n        },\n        \"fraudCheck\": {\n            \"active\": \"Y\",\n            \"deviceRiskScore\": 0.1,\n            \"ipAddress\": \"174.95.80.9\",\n            \"geoLocation\": \"-79.3877, 43.7012\",\n            \"city\": \"Toronto\",\n            \"country\": \"Canada\",\n            \"emailFirstSeen\": null,\n            \"emailAge\": null,\n            \"emailRiskScore\": null,\n            \"bureauHit\": null,\n            \"bureauFraudFlag\": null,\n            \"fraudCheckDescision\": null\n        }\n    }\n}"
 				}
 			]
 		},
