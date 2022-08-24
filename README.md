@@ -11,7 +11,10 @@ Use this API call to obtain the details of a consumer based on conversation ID o
 
 `POST https://uat-developer.preq.ai/api/v1/transaction-details`
 
-    curl -X POST https://uat-developer.preq.ai/api/v1/transaction-details -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'apikey: REYrtBoxeLvf1iYLis3fuK4lPlXohokEVhn6VXeBYBk=' -d '{"userDetails":{"firstName": "dev","lastName": "test","phoneNo": "6472273539","drivingLicenseNumber": "xyz"}}'
+```
+    curl -X POST https://uat-developer.preq.ai/api/v1/transaction-details -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'apikey: REYrtBoxeLvf1iYLis3fuK4lPlXohokEVhn6VXeBYBk=' -d '{"userDetails":{"firstName": "dev","lastName": "test","phoneNo": "6472273539"}}'
+    
+```
 
 ### Response
 
