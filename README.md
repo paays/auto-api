@@ -145,3 +145,24 @@ Use this API call to create a ID Verify link that will be sent by a dealer to a 
 ### Response
 
     {"status":1,"link":"dealer. Please click on this link to verify your identity. https://dealer-dev.preq.ai/verify/?phoneNumber=6472273539&dealerEmail=dealer@yopmail.com","message":"link sent successfully"}
+
+### 404 Error Reponse
+
+    {"status":0, "message": "dealer not found"}
+
+### 400 Error Reponse
+
+    {"status":0, "message": "apikey is required"}
+    {"status":0, "message": "invalid apikey"}
+    {"status":0, "message": "user details are required"}
+    {"status":0, "message": "first name is required"}
+    {"status":0, "message": "first name is empty"}
+    {"status":0, "message": "first name is invalid"}
+    {"status":0, "message": "last name is required"}
+    {"status":0, "message": "last name is empty"}
+    {"status":0, "message": "last name is invalid"}
+    {"status":0, "message": "phonenumber is required"}
+    {"status":0, "message": "invalid phonenumber"}
+    {"status":0, "message": "user email address is required"}
+    {"status":0, "message": "invalid email address"}
+    {"status":0, "message": "dealer email is required"}
